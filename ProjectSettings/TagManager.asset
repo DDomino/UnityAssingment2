@@ -9,6 +9,7 @@ TagManager:
   - PlaneHitBox
   - player
   - powerUp
+  - Jump
   layers:
   - Default
   - TransparentFX

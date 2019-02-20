@@ -26,7 +26,7 @@ public class BulletScript : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Mouse0))
         {
            Fire();
         }
@@ -38,12 +38,15 @@ public class BulletScript : MonoBehaviour
     {
 
         for (int i = 0; i < bullets.Count; ++i)
-        {
+
+
+        {   //if(bullet != null)
             if (!bullets[i].gameObject.activeInHierarchy)
             {
 
-                //  Rigidbody newBullet = (Rigidbody)Instantiate(bullets[i], transform.position, Quaternion.identity);
+                //  Rigidbody newBullet = (Rigidbody)Instantiate(bullet, transform.position, Quaternion.identity);
                 bullets[i].transform.position = transform.position;
+                // newBullet.velocity  = transform.forward*bulletspeed
                 bullets[i].velocity = transform.forward * bulletSpeed;
                 bullets[i].gameObject.SetActive(true);
                 break;

@@ -21,6 +21,7 @@ public class playerPointScript : MonoBehaviour
     }
     private void OnGUI()
     {
+        GUI.color = Color.red;
         GUI.Label(new Rect(10, 10, 100, 20), "Score: " + count);
     }
 }

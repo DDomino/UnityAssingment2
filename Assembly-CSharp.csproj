@@ -71,9 +71,11 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\CarTimer.cs" />
     <Compile Include="Assets\Scripts\EnemyScript.cs" />
+    <Compile Include="Assets\Scripts\movement.cs" />
     <Compile Include="Assets\Scripts\playerPointScript.cs" />
-    <Compile Include="Assets\Scripts\PowerUps.cs" />
+    <Compile Include="Assets\Scripts\PowerUpMove.cs" />
     <Compile Include="Assets\Scripts\TurnCar.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
